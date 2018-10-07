@@ -1,0 +1,26 @@
+/**********************************************
+    CLASSES
+**********************************************/
+body > div,
+body > div > div,
+body > div > div > div.login-form,
+.login-grid {
+    height: 100%;
+}
+
+.ui.center.aligned.middle.aligned.grid.login-grid {
+    margin: 0;
+}
+
+
+.login-column {
+    max-width: 450px;
+}
+
+.login-wrapper-cust {
+    height: 100%;
+    width: 100%;
+    background-color: #002208 !important;
+}
+
+

@@ -1,32 +1,57 @@
-.App {
-  text-align: center;
+
+/*********************************************************
+    MAIN ELEMENTS
+*********************************************************/
+
+
+
+
+/*********************************************************
+    CLASSES
+*********************************************************/
+
+.margin-top {
+    margin-top: 30px !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.margin-top-lrg {
+    margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.centered {
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/*********************************************************
+    OVERRIDES
+*********************************************************/
+
+.button.ui.green.large.fluid.button {
+    background-color: #002208 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button.ui.green.large.fluid.button:hover {
+    background-color: #006718 !important;
+}
+
+h2.ui.green.center.aligned.header {
+    color:#107b29 !important;
+}
+
+h2.ui.icon.center.aligned.header {
+    color: #002208 !important;
+}
+
+.ui.inverted.menu .teal.active.item, .ui.inverted.teal.menu {
+    background-color: #002208 !important;
+}
+
+i.circular.icon {
+    box-shadow: 0 0 0 0.1em #006718 inset !important;
+}
+
+h2.ui.icon.center.aligned.header {
+    color: white !important;
 }
